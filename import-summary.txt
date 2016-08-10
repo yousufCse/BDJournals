@@ -1,0 +1,216 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* SlidingMenu\
+* SlidingMenu\.classpath
+* SlidingMenu\.project
+* SlidingMenu\AndroidManifest.xml
+* SlidingMenu\bin\
+* SlidingMenu\bin\AndroidManifest.xml
+* SlidingMenu\bin\SlidingMenu.apk
+* SlidingMenu\bin\classes.dex
+* SlidingMenu\bin\classes\
+* SlidingMenu\bin\classes\info\
+* SlidingMenu\bin\classes\info\androidhive\
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\BuildConfig.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\CommunityFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\FindPeopleFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\HomeFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\MainActivity$1.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\MainActivity$SlideMenuClickListener.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\MainActivity.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\PagesFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\PhotosFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$array.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$attr.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$color.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$dimen.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$drawable.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$id.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$layout.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$menu.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$string.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R$style.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\R.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\WhatsHotFragment.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\adapter\
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\adapter\NavDrawerListAdapter.class
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\model\
+* SlidingMenu\bin\classes\info\androidhive\slidingmenu\model\NavDrawerItem.class
+* SlidingMenu\bin\dexedLibs\
+* SlidingMenu\bin\dexedLibs\android-support-v4-73f55466e2f49f89d89da1d3eb630145.jar
+* SlidingMenu\bin\jarlist.cache
+* SlidingMenu\bin\res\
+* SlidingMenu\bin\res\drawable-hdpi\
+* SlidingMenu\bin\res\drawable-hdpi\ic_communities.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_drawer.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_home.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_launcher.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_pages.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_people.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_photos.png
+* SlidingMenu\bin\res\drawable-hdpi\ic_whats_hot.png
+* SlidingMenu\bin\res\drawable-mdpi\
+* SlidingMenu\bin\res\drawable-mdpi\ic_communities.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_drawer.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_home.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_launcher.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_pages.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_people.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_photos.png
+* SlidingMenu\bin\res\drawable-mdpi\ic_whats_hot.png
+* SlidingMenu\bin\res\drawable-xhdpi\
+* SlidingMenu\bin\res\drawable-xhdpi\ic_communities.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_drawer.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_home.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_launcher.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_pages.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_people.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_photos.png
+* SlidingMenu\bin\res\drawable-xhdpi\ic_whats_hot.png
+* SlidingMenu\bin\res\drawable-xxhdpi\
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_communities.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_home.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_launcher.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_pages.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_people.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_photos.png
+* SlidingMenu\bin\res\drawable-xxhdpi\ic_whats_hot.png
+* SlidingMenu\bin\resources.ap_
+* SlidingMenu\gen\
+* SlidingMenu\gen\info\
+* SlidingMenu\gen\info\androidhive\
+* SlidingMenu\gen\info\androidhive\slidingmenu\
+* SlidingMenu\gen\info\androidhive\slidingmenu\BuildConfig.java
+* SlidingMenu\gen\info\androidhive\slidingmenu\R.java
+* SlidingMenu\ic_launcher-web.png
+* SlidingMenu\libs\
+* SlidingMenu\libs\android-support-v4.jar
+* SlidingMenu\proguard-project.txt
+* SlidingMenu\project.properties
+* SlidingMenu\res\
+* SlidingMenu\res\drawable-hdpi\
+* SlidingMenu\res\drawable-hdpi\ic_communities.png
+* SlidingMenu\res\drawable-hdpi\ic_drawer.png
+* SlidingMenu\res\drawable-hdpi\ic_home.png
+* SlidingMenu\res\drawable-hdpi\ic_launcher.png
+* SlidingMenu\res\drawable-hdpi\ic_pages.png
+* SlidingMenu\res\drawable-hdpi\ic_people.png
+* SlidingMenu\res\drawable-hdpi\ic_photos.png
+* SlidingMenu\res\drawable-hdpi\ic_whats_hot.png
+* SlidingMenu\res\drawable-mdpi\
+* SlidingMenu\res\drawable-mdpi\ic_communities.png
+* SlidingMenu\res\drawable-mdpi\ic_drawer.png
+* SlidingMenu\res\drawable-mdpi\ic_home.png
+* SlidingMenu\res\drawable-mdpi\ic_launcher.png
+* SlidingMenu\res\drawable-mdpi\ic_pages.png
+* SlidingMenu\res\drawable-mdpi\ic_people.png
+* SlidingMenu\res\drawable-mdpi\ic_photos.png
+* SlidingMenu\res\drawable-mdpi\ic_whats_hot.png
+* SlidingMenu\res\drawable-xhdpi\
+* SlidingMenu\res\drawable-xhdpi\ic_communities.png
+* SlidingMenu\res\drawable-xhdpi\ic_drawer.png
+* SlidingMenu\res\drawable-xhdpi\ic_home.png
+* SlidingMenu\res\drawable-xhdpi\ic_launcher.png
+* SlidingMenu\res\drawable-xhdpi\ic_pages.png
+* SlidingMenu\res\drawable-xhdpi\ic_people.png
+* SlidingMenu\res\drawable-xhdpi\ic_photos.png
+* SlidingMenu\res\drawable-xhdpi\ic_whats_hot.png
+* SlidingMenu\res\drawable-xxhdpi\
+* SlidingMenu\res\drawable-xxhdpi\ic_communities.png
+* SlidingMenu\res\drawable-xxhdpi\ic_home.png
+* SlidingMenu\res\drawable-xxhdpi\ic_launcher.png
+* SlidingMenu\res\drawable-xxhdpi\ic_pages.png
+* SlidingMenu\res\drawable-xxhdpi\ic_people.png
+* SlidingMenu\res\drawable-xxhdpi\ic_photos.png
+* SlidingMenu\res\drawable-xxhdpi\ic_whats_hot.png
+* SlidingMenu\res\drawable\
+* SlidingMenu\res\drawable\counter_bg.xml
+* SlidingMenu\res\drawable\list_item_bg_normal.xml
+* SlidingMenu\res\drawable\list_item_bg_pressed.xml
+* SlidingMenu\res\drawable\list_selector.xml
+* SlidingMenu\res\layout\
+* SlidingMenu\res\layout\activity_main.xml
+* SlidingMenu\res\layout\drawer_list_item.xml
+* SlidingMenu\res\layout\fragment_community.xml
+* SlidingMenu\res\layout\fragment_find_people.xml
+* SlidingMenu\res\layout\fragment_home.xml
+* SlidingMenu\res\layout\fragment_pages.xml
+* SlidingMenu\res\layout\fragment_photos.xml
+* SlidingMenu\res\layout\fragment_whats_hot.xml
+* SlidingMenu\res\menu\
+* SlidingMenu\res\menu\main.xml
+* SlidingMenu\res\values-sw600dp\
+* SlidingMenu\res\values-sw600dp\dimens.xml
+* SlidingMenu\res\values-sw720dp-land\
+* SlidingMenu\res\values-sw720dp-land\dimens.xml
+* SlidingMenu\res\values-v11\
+* SlidingMenu\res\values-v11\styles.xml
+* SlidingMenu\res\values-v14\
+* SlidingMenu\res\values-v14\styles.xml
+* SlidingMenu\res\values\
+* SlidingMenu\res\values\color.xml
+* SlidingMenu\res\values\dimens.xml
+* SlidingMenu\res\values\strings.xml
+* SlidingMenu\res\values\styles.xml
+* SlidingMenu\src\
+* SlidingMenu\src\info\
+* SlidingMenu\src\info\androidhive\
+* SlidingMenu\src\info\androidhive\slidingmenu\
+* SlidingMenu\src\info\androidhive\slidingmenu\CommunityFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\FindPeopleFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\HomeFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\MainActivity.java
+* SlidingMenu\src\info\androidhive\slidingmenu\PagesFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\PhotosFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\WhatsHotFragment.java
+* SlidingMenu\src\info\androidhive\slidingmenu\adapter\
+* SlidingMenu\src\info\androidhive\slidingmenu\adapter\NavDrawerListAdapter.java
+* SlidingMenu\src\info\androidhive\slidingmenu\model\
+* SlidingMenu\src\info\androidhive\slidingmenu\model\NavDrawerItem.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/webActivityLl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yousufcsebd.topjournals.WebActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginBottom="5dp"></ProgressBar>
+
+        <TextView
+            android:id="@+id/tvPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal|top"
+            android:text="Loading 0%"
+            android:textSize="11sp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#fff" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#00FFFFFF" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#bbb"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="btnBackClick"
+            android:background="@drawable/ic_back"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:id="@+id/btnForword"
+            android:background="@drawable/ic_for"
+
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_toRightOf="@+id/btnBack"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="btnForwordClick"
+            android:textSize="8sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:background="@drawable/ic_reload"
+
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="btnRefreshClick"
+            android:textSize="8sp"
+            android:layout_toRightOf="@+id/btnForword"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/btnStop"
+            android:background="@drawable/ic_stop"
+
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="btnStopClick"
+            android:textSize="8sp"
+            android:layout_toRightOf="@+id/btnRefresh"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/btnHome"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="@drawable/ic_home"
+            android:onClick="btnHomeClick"
+            android:textSize="8sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Protham Alo"
+            android:id="@+id/tvPaperName"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/btnHome"
+            android:layout_toStartOf="@+id/btnHome"
+            android:textSize="8sp"
+            android:textColor="@color/color_magenta"
+            android:gravity="center_vertical|end|right"
+            android:textStyle="bold"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+</LinearLayout>
